@@ -1,0 +1,32 @@
+Cell 3.101 3.101 1  90 90 90
+LaueSymmetry 4/mmm
+DiffuseScatteringGrid -10 -10 0 0.1 0.1 1 200 200 1
+
+CalculationMethod exact
+Refine true
+
+Scale 1
+RefinableVariables
+[
+]
+
+UnitCell
+[
+  AuCu = Variant[
+    (p=1/2)
+    Au 1 0.0 0.0 0 0.02
+
+    (p=1/2)
+    Cu 1 0.0 0.0 0 0.02
+  ]
+]
+
+Modes[]
+
+Correlations
+[
+  [(0,0,0)
+   Multiplicity 1
+   SubstitutionalCorrelation(AuCu,AuCu,1/2)
+  ]
+]

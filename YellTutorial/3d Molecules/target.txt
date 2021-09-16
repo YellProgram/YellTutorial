@@ -1,0 +1,75 @@
+# A Fe-Void example input file for Yell
+
+Cell 6 6 1  90 90 120
+LaueSymmetry 6/mmm
+DiffuseScatteringGrid -10 -10 -10 0.1 0.1 1 200 200 20
+
+CalculationMethod approximate
+Refine false
+
+Scale  1
+RefinableVariables [
+dp10=-0.15;
+dp20=0.07;
+dp21=0.06;
+dp22=0.06;
+dp30=-0.023;
+dp31=-0.022;
+]
+
+UnitCell
+[
+  Mol12 = Variant[
+    (p=1/2) [
+    Ni 1   0.2  0   0  0.002
+    Ni 1   0    0.2 0  0.002
+    Ni 1  -0.2 -0.2 0  0.002
+    ]
+
+
+    (p=1/2)
+    [
+    Ni 1  -0.2  0   0  0.002
+    Ni 1   0   -0.2 0  0.002
+    Ni 1   0.2  0.2 0  0.002
+    ]
+  ]
+]
+
+Modes[
+
+]
+
+Correlations
+[
+  [(0,0,0)
+   Multiplicity 1
+   SubstitutionalCorrelation(Mol12, Mol12,1/2)
+  ]
+
+  [(1,0,0)
+   Multiplicity 6
+   SubstitutionalCorrelation(Mol12, Mol12,0.25+dp10)
+  ]
+
+  [(2,0,0)
+   Multiplicity 6
+   SubstitutionalCorrelation(Mol12, Mol12,0.25+dp20)
+  ]
+
+  [(2,1,0)
+   Multiplicity 6
+   SubstitutionalCorrelation(Mol12, Mol12,0.25+dp21)
+  ]
+
+  [(3,0,0)
+   Multiplicity 6
+   SubstitutionalCorrelation(Mol12, Mol12,0.25+dp30)
+  ]
+
+  [(3,1,0)
+   Multiplicity 12
+   SubstitutionalCorrelation(Mol12, Mol12,0.25+dp31)
+  ]
+
+]

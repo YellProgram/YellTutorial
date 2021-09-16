@@ -1,0 +1,555 @@
+Cell 10.617 10.617 10.617 90 90 90
+DiffuseScatteringGrid    -9 -9 -9     1/4 1/4 1/4    72 72 80
+LaueSymmetry m-3m
+CalculationMethod approximate
+Refine false
+MaxNumberOfIterations 5
+
+Scale 5.314(2)
+RefinableVariables
+[
+sc_hh0=-0.03350(13);
+sc_100=0.06462(19);
+sc_1hh=0.01112(9);
+sc_110=0.02123(13);
+sc_111=0.00338(17);
+sc_uh0=-0.01862(9);
+sc_u1h=0.00248(6);
+sc_uu0=-0.00500(13);
+sc_uu1=0.00511(9);
+zerocorr=0.000000(-2147483648);
+first_corrx1=0.00744(3);
+first_corrz1=0.00117(2);
+se_x1=0.01131(9);
+first_corrx2=0.004045(16);
+first_corrxy2=0.000440(19);
+first_corrz2=0.00088(2);
+se2=0.00053(8);
+first_corrx3=0.000483(12);
+first_corrxy3=-0.000143(14);
+se3=-0.00378(4);
+first_corrx4=0.00606(9);
+first_corrz4=-0.00006(2);
+se4=0.0095(2);
+corrx5=0.001742(16);
+corry5=-0.000621(16);
+corrxy5=-0.000187(14);
+corrz5=-0.000211(16);
+se5=0.00355(3);
+first_corrx6=0.001017(16);
+first_corry6=-0.000000(11);
+first_corryz6=0.000168(13);
+se_x6=-0.00608(8);
+se_y6=-0.00029(6);
+first_corrx7=-0.000270(16);
+first_corrxy7=0.000028(19);
+first_corrz7=0.00064(2);
+se7=0.00211(8);
+corrx8=-0.000274(10);
+corrxy8=-0.000189(14);
+corrxz8=-0.000141(10);
+corrz8=0.000591(16);
+se_x8=0.00021(3);
+se_z8=0.00245(4);
+first_corrx9=0.000565(15);
+first_corrxy9=0.000119(13);
+se9=0.00390(8);
+corrx10=0.00333(3);
+corrz10=-0.00101(2);
+se_x10=0.00313(9);
+first_corrx11=0.002117(16);
+first_corry11=-0.000693(16);
+first_corrxy11=0.000056(13);
+first_corrz11=-0.000686(16);
+se_x11=0.00500(8);
+se_y11=0.00008(8);
+corrx12=0.000718(16);
+corry12=-0.000489(10);
+corrxy12=-0.000044(10);
+corryz12=-0.000092(14);
+se_x12=-0.00236(4);
+se_y12=-0.00204(3);
+corrx13=-0.000456(12);
+corry13=-0.000671(12);
+corrz13=0.000314(12);
+corrxy13=-0.000157(10);
+se_x13=0.00077(3);
+se_y13=-0.00038(3);
+first_corrx14=0.000012(11);
+first_corry14=-0.000366(11);
+first_corrz14=0.000203(11);
+first_corrxy14=-0.000044(9);
+first_corryz14=0.000018(9);
+first_corrxz14=0.000023(9);
+se_x14=0.00027(6);
+se_y14=-0.00244(6);
+se_z14=0.00024(6);
+corrx15=-0.000008(16);
+corry15=0.000050(10);
+corryz15=-0.000012(14);
+corrxy15=-0.000019(10);
+se_x15=0.00170(4);
+se_y15=-0.00048(3);
+first_corrx16=-0.000627(16);
+first_corrxy16=-0.000099(19);
+first_corrz16=-0.00012(2);
+se16=-0.00107(8);
+corrx17=-0.000335(10);
+corrz17=0.000056(16);
+corrxy17=-0.000055(14);
+corryz17=-0.000017(10);
+se_x17=-0.00101(3);
+se_z17=-0.00140(4);
+first_corrx18=0.000224(11);
+first_corrxy18=0.000017(13);
+first_corrxz18=0.000029(9);
+first_corrz18=0.000125(16);
+se18=-0.00030(6);
+se_z18=-0.00121(8);
+first_corrx19=-0.000006(12);
+first_corrxy19=-0.000009(14);
+se19=-0.00030(4);
+]
+
+
+
+zerocorr=0;
+
+UnitCell
+[
+  Variant[
+    (p=1)
+    Mn2 = Mn 1       0.5  0    0            0.01662 0.01662 0.01662  0 0 0
+  ]
+  Var = Variant[
+    (p=0.67)
+    MnCN = [
+      Mn 1       0      0      0            0.01361 0.01361 0.01361  0 0 0
+      El = [
+        C  1       0.1857 0.0000 0.0000       0.0212 0.062 0.062  0 0 0
+        N  1       0.2953 0.0000 0.0000       0.025 0.06 0.06  0 0 0]
+
+		El*Symmetry(z,x,y)
+		El*Symmetry(y,z,x)
+		El*Symmetry(-x,-y,-z)
+		El*Symmetry(-z,-x,-y)
+		El*Symmetry(-y,-z,-x) 
+		] 
+	
+    (p=0.33)
+    Water_cage = [
+      El2 = [  
+        O 1        0.0000 0.0000 0.2860       0.132 0.132 0.04     0 0 0
+        O 1        0.0000 0.2860 0.0000       0.132 0.04  0.132    0 0 0
+        O 1        0.2860 0.0000 0.0000       0.04  0.132 0.132    0 0 0
+
+				O2 = O 0.5        0.15   0.15   0.15         0.095 0.095 0.095     0 0 0
+				O2*Symmetry(x,-y,z)
+				O2*Symmetry(-x,y,z)
+				O2*Symmetry(-x,-y,z)
+
+			] 
+		El2*Symmetry(-x,-y,-z)
+		]
+	 ]
+
+]
+Modes
+[
+MnCN_x = TranslationalMode(MnCN,x)
+MnCN_y = TranslationalMode(MnCN,y)
+MnCN_z = TranslationalMode(MnCN,z)
+MnCN_rz = RotationalMode(MnCN, 0,0,1, 0,0,0)
+MnCN_ry = RotationalMode(MnCN, 0,1,0, 0,0,0)
+Mn2_x = TranslationalMode(Mn2,x)
+Mn2_y = TranslationalMode(Mn2,y)
+Mn2_z = TranslationalMode(Mn2,z)
+]
+Correlations
+[
+[(0,0,0)
+Multiplicity 1
+SubstitutionalCorrelation(Var,Var,0.67)
+
+ADPCorrelation(MnCN_x, MnCN_x,zerocorr)
+ADPCorrelation(MnCN_y, MnCN_y,zerocorr)
+ADPCorrelation(MnCN_z, MnCN_z,zerocorr)
+#ADPCorrelation(Mn2_x,  Mn2_x, zerocorr)
+#ADPCorrelation(Mn2_y,  Mn2_y, zerocorr)
+#ADPCorrelation(Mn2_z,  Mn2_z, zerocorr)
+]
+
+[(0,0,0)
+#NB this is a vector 0.5 0 0
+#And it also connects different things
+#thus multiplicity is:
+Multiplicity 2*6
+ADPCorrelation(MnCN_x, Mn2_x, first_corrx1)
+ADPCorrelation(MnCN_y, Mn2_y, first_corrz1)
+ADPCorrelation(MnCN_z, Mn2_z, first_corrz1)
+SizeEffect(MnCN, Mn2_x, se_x1)
+]
+
+[(1/2,1/2,0)
+Multiplicity 12
+SubstitutionalCorrelation(Var,Var,4/9+sc_hh0)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx2)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrx2)
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy2)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy2)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz2)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx2)
+ADPCorrelation(Mn2_y, Mn2_y, first_corrx2)
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy2)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy2)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz2)
+
+SizeEffect(MnCN,MnCN_x,se2)
+SizeEffect(MnCN,MnCN_y,se2)
+]
+
+[(0,1/2,1/2)
+Multiplicity 2*8
+ADPCorrelation(MnCN_x, Mn2_x,first_corrx3)
+ADPCorrelation(MnCN_y, Mn2_y,first_corrx3)
+ADPCorrelation(MnCN_z, Mn2_z,first_corrx3)
+
+ADPCorrelation(MnCN_x, Mn2_y,first_corrxy3)
+ADPCorrelation(MnCN_x, Mn2_z,first_corrxy3)
+ADPCorrelation(MnCN_y, Mn2_x,first_corrxy3)
+ADPCorrelation(MnCN_y, Mn2_z,first_corrxy3)
+ADPCorrelation(MnCN_z, Mn2_x,first_corrxy3)
+ADPCorrelation(MnCN_z, Mn2_y,first_corrxy3)
+
+SizeEffect(MnCN,Mn2_x,se3)
+SizeEffect(MnCN,Mn2_y,se3)
+SizeEffect(MnCN,Mn2_z,se3)
+]
+
+[(1,0,0)
+Multiplicity 6
+SubstitutionalCorrelation(Var,Var,4/9+sc_100)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx4)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrz4)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz4)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx4)
+ADPCorrelation(Mn2_y, Mn2_y, first_corrz4)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz4)
+
+SizeEffect(MnCN,MnCN_x,se4)
+]
+
+
+
+[(1/2,1/2,0)
+Multiplicity 2*24
+ADPCorrelation(MnCN_x, Mn2_x,corrx5)
+ADPCorrelation(MnCN_y, Mn2_y,corry5)
+ADPCorrelation(MnCN_x, Mn2_y,corrxy5)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy5)
+ADPCorrelation(MnCN_z, Mn2_z,corrz5)
+
+SizeEffect(MnCN,Mn2_x,se5)
+SizeEffect(MnCN,Mn2_y,se5)
+]
+
+
+
+
+[(1,1/2,1/2)
+Multiplicity 24
+SubstitutionalCorrelation(Var,Var,4/9+sc_1hh)
+ADPCorrelation(MnCN_x, MnCN_x, first_corrx6)
+ADPCorrelation(MnCN_y, MnCN_y, first_corry6)
+ADPCorrelation(MnCN_z, MnCN_z, first_corry6)
+
+ADPCorrelation(MnCN_y, MnCN_z, first_corryz6)
+ADPCorrelation(MnCN_z, MnCN_y, first_corryz6)
+
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx6)
+ADPCorrelation(Mn2_y, Mn2_y, first_corry6)
+ADPCorrelation(Mn2_z, Mn2_z, first_corry6)
+
+ADPCorrelation(Mn2_y, Mn2_z, first_corryz6)
+ADPCorrelation(Mn2_z, Mn2_y, first_corryz6)
+
+SizeEffect(MnCN,MnCN_x,se_x6)
+SizeEffect(MnCN,MnCN_y,se_y6)
+SizeEffect(MnCN,MnCN_z,se_y6)
+]
+
+
+
+[(1,1,0)
+Multiplicity 12
+SubstitutionalCorrelation(Var,Var,4/9+sc_110)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx7)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrx7)
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy7)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy7)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz7)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx7)
+ADPCorrelation(Mn2_y, Mn2_y, first_corrx7)
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy7)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy7)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz7)
+
+SizeEffect(MnCN,MnCN_x,se7)
+SizeEffect(MnCN,MnCN_y,se7)
+]
+
+
+[(1/2,1,1/2)
+Multiplicity 2*24
+ADPCorrelation(MnCN_x, Mn2_x,corrx8)
+ADPCorrelation(MnCN_y, Mn2_y,corrx8)
+ADPCorrelation(MnCN_x, Mn2_y,corrxy8)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy8)
+ADPCorrelation(MnCN_z, Mn2_z,corrz8)
+
+ADPCorrelation(MnCN_x, Mn2_z,corrxz8)
+ADPCorrelation(MnCN_y, Mn2_z,corrxz8)
+ADPCorrelation(MnCN_z, Mn2_x,corrxz8)
+ADPCorrelation(MnCN_z, Mn2_y,corrxz8)
+
+SizeEffect(MnCN,Mn2_x,se_x8)
+SizeEffect(MnCN,Mn2_y,se_x8)
+SizeEffect(MnCN,Mn2_z,se_z8)
+]
+
+
+[(1,1,1)
+Multiplicity 8
+SubstitutionalCorrelation(Var,Var,4/9+sc_111)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx9)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrx9)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrx9)
+
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy9)
+ADPCorrelation(MnCN_x, MnCN_z,first_corrxy9)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy9)
+ADPCorrelation(MnCN_y, MnCN_z,first_corrxy9)
+ADPCorrelation(MnCN_z, MnCN_x,first_corrxy9)
+ADPCorrelation(MnCN_z, MnCN_y,first_corrxy9)
+
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx9)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx9)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx9)
+
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy9)
+ADPCorrelation(Mn2_x, Mn2_z, first_corrxy9)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy9)
+ADPCorrelation(Mn2_y, Mn2_z, first_corrxy9)
+ADPCorrelation(Mn2_z, Mn2_x, first_corrxy9)
+ADPCorrelation(Mn2_z, Mn2_y, first_corrxy9)
+
+SizeEffect(MnCN,MnCN_x,se9)
+SizeEffect(MnCN,MnCN_y,se9)
+SizeEffect(MnCN,MnCN_z,se9)
+]
+
+
+[(1,0,0)
+Multiplicity 2*6
+ADPCorrelation(MnCN_x, Mn2_x,corrx10)
+ADPCorrelation(MnCN_y, Mn2_y,corrz10)
+ADPCorrelation(MnCN_z, Mn2_z,corrz10)
+SizeEffect(MnCN,Mn2_x,se_x10)
+]
+
+
+[(3/2,1/2,0)
+Multiplicity 24
+SubstitutionalCorrelation(Var,Var,4/9+sc_uh0)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx11)
+ADPCorrelation(MnCN_y, MnCN_y,first_corry11)
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy11)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy11)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz11)
+
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx11)
+ADPCorrelation(Mn2_y, Mn2_y, first_corry11)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz11)
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy11)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy11)
+
+SizeEffect(MnCN,MnCN_x,se_x11)
+SizeEffect(MnCN,MnCN_y,se_y11)
+]
+
+
+[(1,1/2,1/2)
+Multiplicity 2*24
+
+ADPCorrelation(MnCN_x, Mn2_x,corrx12)
+ADPCorrelation(MnCN_y, Mn2_y,corry12)
+ADPCorrelation(MnCN_z, Mn2_z,corry12)
+
+ADPCorrelation(MnCN_y, Mn2_z,corryz12)
+ADPCorrelation(MnCN_z, Mn2_y,corryz12)
+
+ADPCorrelation(MnCN_x, Mn2_y,corrxy12)
+ADPCorrelation(MnCN_x, Mn2_z,corrxy12)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy12)
+ADPCorrelation(MnCN_z, Mn2_x,corrxy12)
+
+SizeEffect(MnCN,Mn2_x, se_x12)
+SizeEffect(MnCN,Mn2_y, se_y12)
+SizeEffect(MnCN,Mn2_z, se_y12)
+]
+
+
+[(1,1,0)
+Multiplicity 2*32
+ADPCorrelation(MnCN_x, Mn2_x,corrx13)
+ADPCorrelation(MnCN_y, Mn2_y,corry13)
+ADPCorrelation(MnCN_z, Mn2_z,corrz13)
+
+ADPCorrelation(MnCN_x, Mn2_y,corrxy13)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy13)
+
+SizeEffect(MnCN,Mn2_x,se_x13)
+SizeEffect(MnCN,Mn2_y,se_y13)
+]
+
+[(3/2,1,1/2)
+Multiplicity 48
+SubstitutionalCorrelation(Var,Var,4/9+sc_u1h)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx14)
+ADPCorrelation(MnCN_y, MnCN_y,first_corry14)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz14)
+
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy14)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy14)
+ADPCorrelation(MnCN_y, MnCN_z,first_corryz14)
+ADPCorrelation(MnCN_z, MnCN_y,first_corryz14)
+ADPCorrelation(MnCN_x, MnCN_z,first_corrxz14)
+ADPCorrelation(MnCN_z, MnCN_x,first_corrxz14)
+
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx14)
+ADPCorrelation(Mn2_y, Mn2_y, first_corry14)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz14)
+
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy14)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy14)
+ADPCorrelation(Mn2_y, Mn2_z, first_corryz14)
+ADPCorrelation(Mn2_z, Mn2_y, first_corryz14)
+ADPCorrelation(Mn2_x, Mn2_z, first_corrxz14)
+ADPCorrelation(Mn2_z, Mn2_x, first_corrxz14)
+
+
+SizeEffect(MnCN,MnCN_x,se_x14)
+SizeEffect(MnCN,MnCN_y,se_y14)
+SizeEffect(MnCN,MnCN_z,se_z14)
+]
+
+
+[(1,1,1)
+Multiplicity 2*24
+ADPCorrelation(MnCN_x, Mn2_x,corrx15)
+ADPCorrelation(MnCN_y, Mn2_y,corry15)
+ADPCorrelation(MnCN_z, Mn2_z,corry15)
+
+ADPCorrelation(MnCN_x, Mn2_y,corrxy15)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy15)
+ADPCorrelation(MnCN_x, Mn2_z,corrxy15)
+ADPCorrelation(MnCN_z, Mn2_x,corrxy15)
+ADPCorrelation(MnCN_y, Mn2_z,corryz15)
+ADPCorrelation(MnCN_z, Mn2_y,corryz15)
+
+SizeEffect(MnCN,Mn2_x,se_x15)
+SizeEffect(MnCN,Mn2_y,se_y15)
+SizeEffect(MnCN,Mn2_z,se_y15)
+]
+
+[(3/2,3/2,0)
+Multiplicity 12
+SubstitutionalCorrelation(Var,Var,4/9+sc_uu0)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx16)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrx16)
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy16)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy16)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz16)
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx16)
+ADPCorrelation(Mn2_y, Mn2_y, first_corrx16)
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy16)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy16)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz16)
+
+SizeEffect(MnCN,MnCN_x,se16)
+SizeEffect(MnCN,MnCN_y,se16)
+]
+
+
+[(1,3/2,1/2)
+Multiplicity 2*24
+ADPCorrelation(MnCN_x, Mn2_x,corrx17)
+ADPCorrelation(MnCN_y, Mn2_y,corrx17)
+ADPCorrelation(MnCN_z, Mn2_z,corrz17)
+
+ADPCorrelation(MnCN_y, Mn2_z,corryz17)
+ADPCorrelation(MnCN_z, Mn2_y,corryz17)
+ADPCorrelation(MnCN_x, Mn2_z,corryz17)
+ADPCorrelation(MnCN_z, Mn2_x,corryz17)
+
+ADPCorrelation(MnCN_x, Mn2_y,corrxy17)
+ADPCorrelation(MnCN_y, Mn2_x,corrxy17)
+
+SizeEffect(MnCN,Mn2_x, se_x17)
+SizeEffect(MnCN,Mn2_y, se_x17)
+SizeEffect(MnCN,Mn2_z, se_z17)
+
+]
+
+
+[(3/2,3/2,1)
+Multiplicity 24
+SubstitutionalCorrelation(Var,Var,4/9+sc_uu1)
+ADPCorrelation(MnCN_x, MnCN_x,first_corrx18)
+ADPCorrelation(MnCN_y, MnCN_y,first_corrx18)
+ADPCorrelation(MnCN_x, MnCN_y,first_corrxy18)
+ADPCorrelation(MnCN_y, MnCN_x,first_corrxy18)
+ADPCorrelation(MnCN_z, MnCN_z,first_corrz18)
+
+ADPCorrelation(MnCN_x, MnCN_z,first_corrxz18)
+ADPCorrelation(MnCN_y, MnCN_z,first_corrxz18)
+ADPCorrelation(MnCN_z, MnCN_y,first_corrxz18)
+ADPCorrelation(MnCN_z, MnCN_x,first_corrxz18)
+
+ADPCorrelation(Mn2_x, Mn2_x, first_corrx18)
+ADPCorrelation(Mn2_y, Mn2_y, first_corrx18)
+ADPCorrelation(Mn2_x, Mn2_y, first_corrxy18)
+ADPCorrelation(Mn2_y, Mn2_x, first_corrxy18)
+ADPCorrelation(Mn2_z, Mn2_z, first_corrz18)
+
+ADPCorrelation(Mn2_z, Mn2_x, first_corrxz18)
+ADPCorrelation(Mn2_z, Mn2_y, first_corrxz18)
+ADPCorrelation(Mn2_x, Mn2_z, first_corrxz18)
+ADPCorrelation(Mn2_y, Mn2_z, first_corrxz18)
+
+SizeEffect(MnCN,MnCN_x,se18)
+SizeEffect(MnCN,MnCN_y,se18)
+SizeEffect(MnCN,MnCN_z,se_z18)
+]
+
+[(1,3/2,3/2)
+Multiplicity 2*8
+
+ADPCorrelation(MnCN_x, Mn2_x,first_corrx19)
+ADPCorrelation(MnCN_y, Mn2_y,first_corrx19)
+ADPCorrelation(MnCN_z, Mn2_z,first_corrx19)
+
+ADPCorrelation(MnCN_x, Mn2_y,first_corrxy19)
+ADPCorrelation(MnCN_x, Mn2_z,first_corrxy19)
+ADPCorrelation(MnCN_y, Mn2_x,first_corrxy19)
+ADPCorrelation(MnCN_y, Mn2_z,first_corrxy19)
+ADPCorrelation(MnCN_z, Mn2_x,first_corrxy19)
+ADPCorrelation(MnCN_z, Mn2_y,first_corrxy19)
+
+SizeEffect(MnCN,Mn2_x,se19)
+SizeEffect(MnCN,Mn2_y,se19)
+SizeEffect(MnCN,Mn2_z,se19)
+]
+
+
+]
