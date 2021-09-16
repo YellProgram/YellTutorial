@@ -1,2 +1,2 @@
 # YellTutorial
-Tutorial for Yell program
+Tutorial files for Yell diffuse scattering analysis program.
